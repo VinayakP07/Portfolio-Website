@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinayak-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="pngegg.png" type="image/x-icon">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo{
+            width: 10vw;
+            height: 15vh;
+        }
+
+        body{
+            font-size: 3vh;
+            word-spacing: 0.1vw;
+            background: rgb(18, 18, 18);
+            color: white;
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        nav{
+            background: rgb(35, 33, 33);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 10vh;
+            padding-left: 2vw;
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: center;
+            padding-left: 15vw;
+        }
+
+        nav ul li{
+            list-style: none;
+            margin: 0vw 2vw;
+        }
+
+        a{
+            color: rgb(220, 166, 17);
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: white;
+            font-size: 3.2vh;
+        }
+
+        .left{
+            display: flex;
+            justify-content: center;
+            font-size: 2.5rem;
+            padding-left: 3vh;
+            align-items: center;
+        }
+
+        .part1{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .leftcontent{
+            margin-top: 3vh;
+            font-size: 5vh;
+            padding-left: 2vw;
+            padding-top: 10vh;
+            color: white;
+        }
+
+        .vp{
+            padding-top: 7vh;
+            padding-left: 10vw;
+            padding-right: 2vw;
+            width: 30vw;
+            height: 60vh;
+        }
+
+        .golden{
+            color: rgb(220, 166, 17);
+        }
+
+        #element{
+            color: rgb(220, 166, 17);
+        }
+
+        hr{
+            border: 0;
+            background: rgb(220, 166, 17);
+            height: 0.5vh;
+            margin: 3vh 4vw;
+        }
+
+        .part2{
+            font-size: 5vh;
+            padding-left: 5vw;
+        }
+
+        .topic{
+            font-size: 7vh;
+        }
+
+        .edu li, .skills li, .exp li{
+            width: 95%;
+            list-style-position: inside;
+            word-spacing: 0.3vw;
+        }
+
+        .btn{
+            margin-top: 8vh;
+            width: 12vw;
+            height: 6vh;
+            background: rgb(220, 166, 17);
+            border: 6px solid rgb(95, 72, 5);
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 3vh;
+            border-radius: 2vh;
+        }
+
+        .btn:hover{
+            width: 14vw;
+            height: 8vh;
+            font-size: 4vh;
+            cursor: pointer;
+        }
+
+        .html, .python, .nss{
+            position: relative;
+            width: 4vw;
+            height: 8vh;
+            top: 2vh;
+            left: 1vw;
+        }
+
+        .css{
+            position: relative;
+            width: 4vw;
+            height: 10vh;
+            top: 2vh;
+            left: 1vw;
+        }
+
+        .js{
+            position: relative;
+            width: 9vw;
+            height: 8vh;
+            top: 2vh;
+            left: -1.5vw;
+        }
+
+        .c{
+            position: relative;
+            width: 5vw;
+            height: 9.5vh;
+            top: 3vh;
+            left: 0vw;
+        }
+
+        .autocad{
+            position: relative;
+            width: 4vw;
+            height: 8vh;
+            top: 2vh;
+            left: 0vw;
+        }
+
+        .bi{
+            position: relative;
+            width: 15vw;
+            height: 8vh;
+            top: 2vh;
+            left: 0vw;
+        }
+
+        .footerbg{
+            height: 50vh;
+            width: 100vw;
+            background: rgb(35, 33, 33);
+        }
+
+        .footlogo{
+            margin: 0vh 45vw;
+            width: 10vw;
+            height: 15vh;
+        }
+
+        .insta{
+            position: relative;
+            width: 2vw;
+            height: 4vh;
+            top: -3vh;
+            left: 43.5vw;
+        }
+
+        .instalink{
+            position: relative;
+            left: 44vw;
+            top: -4.1vh;
+        }
+
+        .linkedin{
+            position: relative;
+            width: 2vw;
+            height: 4vh;
+            top: -3vh;
+            left: 44.5vw;
+        }
+
+        .linkedinlink{
+            position: relative;
+            left: 45vw;
+            top: -4.1vh;
+        }
+
+        .gmail{
+            position: relative;
+            width: 2vw;
+            height: 3vh;
+            top: -3vh;
+            left: 40vw;
+        }
+
+        .gmaillink{
+            position: relative;
+            left: 43vw;
+            top: -7.3vh;
+        }
+
+        .foot{
+            margin-top: 5vh;
+        }
+
+        .copyright{
+            position: relative;
+            left: 36vw;
+            color: rgb(220, 166, 17);;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img class="logo" src="portfolio-plus-banking-software-vector-logo.svg" alt="Portfolio">
+            </div>
+            <div class="left">
+                <span class="golden">Vinayak's Portfolio</span>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="part1">
+            <div class="leftcontent">
+                <p>Hi, my name is 
+                    <span class="green">Vinayak Anil Puranik</span><br><br>
+                    Student at,<br>
+                    <span class="green">Kalinga Institute of Industrial Technology (kiit)</span> <br> <br>
+                    I am a
+                    <span id="element"></span>
+                </p>
+                <button class="btn">Download Resume</button>
+            </div>
+            <div class="rightcontent">
+                <img class="vp" src="vp.jfif-modified.png" alt="Profile Photo">
+            </div>
+        </section>
+        <br><br>
+        <hr>
+        <section class="part2">
+            <br><span class="golden"><span class="topic">Education:</span></span><br><br>
+            <ul class="edu">
+                <li>Matriculation (10th) from Mane's International School (C.B.S.E.), Ratnagiri, Maharashtra (2020)</li><br>
+                <li>High School (12th) from St. Mary's Convent Sr. Sec. School (C.B.S.E.), Ujjain, Madhya Pradesh (2022)</li><br>
+                <li>B.Tech (C.S.E) from Kalinga Institute of Industrial Technology, Bhubaneswar, Odisha (2026)</li><br><br>
+            </ul>
+        </section>
+        <hr><br><br>
+        <section class="part2">
+            <span class="golden"><span class="topic">Skills:</span></span>
+            <ul class="skills">
+                <br><li>HTML - <img src="HTML Logo.png" alt="HTML Logo" class="html"></li><br>
+                <li>CSS - <img src="CSS Logo.png" alt="CSS Logo" class="css"></li><br>
+                <li>JavaScript - <img src="JavaScript logo.png" alt="JavaScript Logo" class="js"></li><br>
+                <li>C Language - <img src="C Language logo.png" alt="C Language Logo" class="c"></li><br>
+                <li>Python - <img src="Python Logo.png" alt="Python Logo" class="python"></li><br>
+                <li>Volunteering - <img src="NSS Logo.png" alt="NSS Logo" class="nss"></li><br>
+                <li>AutoCAD - <img src="AutoCAD logo.png" alt="Autocad Logo" class="autocad"></li><br>
+            </ul>
+        </section>
+        <br><hr><br><br>
+        <section class="part2">
+            <span class="golden"><span class="topic">Experience:</span></span>
+            <ul class="exp">
+                <br><li>Web Development Intern at Bharat Intern - <img src="https://bharatintern.live/b/icons/logoNoBg.png" alt="Bharat Intern Logo" class="bi"></li><br>
+                <li>Volunteer at NSS - <img src="NSS Logo.png" alt="NSS Logo" class="nss"></li>
+            </ul>
+        </section>
+        <br><br>
+    </main>
+    <footer>
+        <section class="footerbg">
+            <div>
+                <img src="portfolio-plus-banking-software-vector-logo.svg" alt="Portfolio Logo" class="footlogo">
+            </div>
+            <div class="foot">
+                <div>
+                    <img src="Instagram logo.png" alt="Instagram Logo" class="insta"><a class="instalink" target="_main" href="https://instagram.com/vinayak_puranik07?igshid=OGQ5ZDc2ODk2ZA==">@vinayak_puranik07</a>
+                </div>
+                <div>
+                    <img src="Linkedin Logo.png" alt="LinkedIn Logo" class="linkedin"><a class="linkedinlink" target="_main" href="https://www.linkedin.com/in/vinayak-puranik-33aba4256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Vinayak Puranik</a>
+                </div>
+                <div>
+                    <img src="Gmail logo.png" alt="Gmail Logo" class="gmail"><p class="gmaillink"><span                         class="golden">vinayakpuranik0707@gmail.com</span></p>
+                </div>
+            </div>
+            <div class="copyright">
+                Copyright &#169; Vinayak's Portfolio | All Rights Reserved
+            </div>
+        </section>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer Intern at "Bharat Intern"'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
